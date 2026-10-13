@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Digital House Sales & Service — Varkala (Demo)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="demo">DEMO concept for the shop owner — products, prices and photos are placeholders</div>
+<header>
+ <div class="wrap bar">
+  <a href="#home" class="logo" data-brand-html></a>
+  <nav id="nav" aria-label="Main"><ul id="navlist"></ul></nav>
+  <div class="tools">
+   <button class="ic" id="sbtn" aria-label="Search products" aria-expanded="false"></button>
+   <a class="btn sm" id="waTop" target="_blank" rel="noopener"></a>
+   <button class="ic" id="burger" aria-label="Open menu" aria-expanded="false"></button>
+  </div>
+ </div>
+ <div class="wrap" id="search"><input id="q" type="search" placeholder="Search the catalogue (e.g. charger, case, earbuds)" aria-label="Search products"></div>
+</header>
+
+<main>
+<section class="hero" id="home"><div class="wrap">
+ <div>
+  <span class="tag" id="heroTag"></span>
+  <h1 id="heroH"></h1>
+  <p id="heroP"></p>
+  <div class="cta"><a class="btn" href="#products">Explore Products</a><a class="btn out" id="repairCta" target="_blank" rel="noopener">Repair Enquiry</a></div>
+ </div>
+ <div>
+  <div class="art" aria-hidden="true">
+   <div class="blob"></div>
+   <div class="fl ph"><div>Add hero<br>phone photo</div></div>
+   <div class="fl f1" data-i="charger"></div><div class="fl f2" data-i="earbuds"></div>
+   <div class="fl f3" data-i="watch"></div><div class="fl f4" data-i="powerbank"></div>
+  </div>
+  <p class="note">Illustration placeholder — replace with real product photography</p>
+ </div>
+</div></section>
+
+<section id="categories"><div class="wrap">
+ <h2>Shop by Category</h2><p class="sub">Everything for your phone, under one roof.</p>
+ <div class="cats" id="cats"></div>
+</div></section>
+
+<section class="alt" id="products"><div class="wrap">
+ <h2>Featured Products</h2><p class="sub">A catalogue preview. Ask us on WhatsApp for current availability and pricing.</p>
+ <div class="grid" id="grid"></div>
+ <p id="empty">No match in this preview catalogue — message us and we'll check what's available.</p>
+</div></section>
+
+<section id="repairs"><div class="wrap">
+ <h2>Repairs &amp; Services</h2><p class="sub">Practical help for everyday phone problems.</p>
+ <div class="svc" id="svc"></div>
+ <p class="disc">Repair outcomes depend on the device and the fault. Share your phone's issue and we'll advise before any work begins.</p>
+</div></section>
+
+<section class="alt" id="trust"><div class="wrap">
+ <h2>Why Customers Choose Us</h2><p class="sub">Based on the shop's public Google listing.</p>
+ <div class="trust">
+  <div class="score"><b id="rating"></b><div class="stars" aria-hidden="true">★★★★★</div><div id="revCount"></div><a class="btn sm" id="gLink" target="_blank" rel="noopener" style="margin-top:20px">View on Google</a></div>
+  <div class="pts" id="pts"></div>
+ </div>
+</div></section>
+
+<section id="reviews"><div class="wrap">
+ <h2>What Reviewers Mention</h2><p class="sub">Recurring themes from customer reviews — not individual testimonials.</p>
+ <div class="rev" id="rev"></div>
+</div></section>
+
+<section class="alt" id="about"><div class="wrap two">
+ <div>
+  <h2>About Digital House</h2>
+  <p id="aboutP1"></p><p id="aboutP2"></p>
+  <a class="btn" id="waAbout" target="_blank" rel="noopener" style="margin-top:12px"></a>
+ </div>
+ <div class="box" id="contact">
+  <div class="map" data-i="pin"></div>
+  <dl><dt>Address</dt><dd id="addr"></dd><dt>Hours</dt><dd id="hours"></dd><dt>Phone</dt><dd id="phoneTxt"></dd></dl>
+  <div class="cta"><a class="btn" id="call"></a><a class="btn out" id="wa2" target="_blank" rel="noopener"></a><a class="btn out" id="dir" target="_blank" rel="noopener">Get Directions</a></div>
+ </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+ <div><div class="logo" data-brand-html style="color:#fff"></div><p id="fAddr" style="margin-top:14px"></p></div>
+ <div><h4>Explore</h4><div id="fNav"></div></div>
+ <div><h4>Contact</h4><a id="fCall"></a><a id="fWa" target="_blank" rel="noopener">WhatsApp</a><a id="fDir" target="_blank" rel="noopener">Directions</a></div>
+</div><div class="wrap copy" style="display:block">© <span id="yr"></span> Digital House Sales &amp; Service · Demo concept, not the final approved website. Enquiry/catalogue site — no online checkout.</div></footer>
+
+<a class="wa-fab" id="fab" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"></a>
+
+<script src="script.js"></script>
+</body>
+</html>
